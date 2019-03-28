@@ -1,10 +1,7 @@
 language: node_js
 node_js:
   - '10'
-  - '9'
-  - '8'
-  - '7'
 before_install:
   - npm i -g 
 script:
-  - cd istanbul-mocha && npm test
+  - npm test
