@@ -6,3 +6,5 @@ node_js:
   - '7'
 before_install:
   - npm i -g 
+script:
+  - cd istanbul-mocha && npm test
